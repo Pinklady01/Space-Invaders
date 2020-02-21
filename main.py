@@ -33,6 +33,23 @@ if __name__ == "__main__":
     player.setheading(90)
 
     playerspeed = 15
+
+    #Create the player's bullet
+    bullet = turtle.Turtle()
+    bullet.color("yellow")
+    bullet.shape("triangle")
+    bullet.penup()
+    bullet.speed(0)
+    bullet.setheading(90)
+    bullet.shapesize(0.5, 0.5)
+    bullet.hideturtle()
+
+    bulletspeed = 20
+    #Define bullet state
+    #ready - ready to fire
+    #fire - bullet is firing
+    bulletstate = "ready"
+
     #Create an enemy
     enemy = turtle.Turtle()
     enemy.color("red")
@@ -61,11 +78,22 @@ if __name__ == "__main__":
         player.setx(x)
 
 
+    def fire_bullet():
+        #declare bulletstate as global if it needs change
+        global bulletstate
+        if bulletstate == "ready":
+            bulletstate = "fire"
+            #Move the bullet just above the player
+            x = player.xcor()
+            y = player.ycor() + 10
+            bullet.setposition(x, y)
+            bullet.showturtle()
+
     #Create keyboard bindings
     turtle.listen()
     turtle.onkey(move_left, "Left")
+    turtle.onkey(fire_bullet, "space")
     turtle.onkey(move_right, "Right")
-
 
     #Main game loop
     while True:
@@ -85,6 +113,18 @@ if __name__ == "__main__":
             y -= 40
             enemyspeed *= -1
             enemy.sety(y)
+
+        # Move the bullet
+        y = bullet.ycor()
+        y += bulletspeed
+        bullet.sety(y)
+
+        #Check to see if the bullet has gone to the top
+        if bullet.ycor() > -boundarie_down - 20:
+            bullet.hideturtle()
+            bulletstate = "ready"
+
+
 
 
 
