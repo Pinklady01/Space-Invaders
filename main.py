@@ -1,5 +1,6 @@
 import turtle
 import os
+import math
 
 
 if __name__ == "__main__":
@@ -89,6 +90,13 @@ if __name__ == "__main__":
             bullet.setposition(x, y)
             bullet.showturtle()
 
+    def isCollision(t1, t2):
+        distance = math.sqrt(math.pow(t1.xcor() - t2.xcor(), 2) + math.pow(t1.ycor() - t2.ycor(), 2))
+        if distance <= 15:
+            return True
+        else:
+            return False
+
     #Create keyboard bindings
     turtle.listen()
     turtle.onkey(move_left, "Left")
@@ -123,9 +131,6 @@ if __name__ == "__main__":
         if bullet.ycor() > -boundarie_down - 20:
             bullet.hideturtle()
             bulletstate = "ready"
-
-
-
 
 
 
