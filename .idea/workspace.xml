@@ -28,6 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -63,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582273977632</updated>
-      <workItem from="1582273985183" duration="5854000" />
+      <workItem from="1582273985183" duration="8179000" />
     </task>
     <servers />
   </component>
@@ -71,40 +72,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Notifications" timestamp="1582279967301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1582279967301" />
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582278190080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582278190080" />
-    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1582276015719">
+    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1582280037168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582276015719" />
-    <state width="846" height="172" key="GridCell.Tab.0.bottom" timestamp="1582279754753">
+    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582280037168" />
+    <state width="846" height="172" key="GridCell.Tab.0.bottom" timestamp="1582282148522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="846" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
-    <state width="846" height="172" key="GridCell.Tab.0.center" timestamp="1582279754753">
+    <state width="846" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582282148522" />
+    <state width="846" height="172" key="GridCell.Tab.0.center" timestamp="1582282148521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="846" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
-    <state width="846" height="172" key="GridCell.Tab.0.left" timestamp="1582279754753">
+    <state width="846" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582282148521" />
+    <state width="846" height="172" key="GridCell.Tab.0.left" timestamp="1582282148521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="846" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
-    <state width="846" height="172" key="GridCell.Tab.0.right" timestamp="1582279754753">
+    <state width="846" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582282148521" />
+    <state width="846" height="172" key="GridCell.Tab.0.right" timestamp="1582282148521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="846" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
-    <state x="437" y="114" key="Vcs.Push.Dialog.v2" timestamp="1582279830578">
+    <state width="846" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582282148521" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1582280039121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="437" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582279830578" />
-    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582279838836">
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582280039121" />
+    <state x="437" y="114" key="Vcs.Push.Dialog.v2" timestamp="1582282172306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1582279838836" />
+    <state x="437" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582282172306" />
+    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582282179273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1582282179273" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Space_invaders$Space_invaders.coverage" NAME="main Coverage Results" MODIFIED="1582279754738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Space_invaders$Space_invaders.coverage" NAME="main Coverage Results" MODIFIED="1582282148513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

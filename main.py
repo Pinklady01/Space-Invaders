@@ -1,6 +1,7 @@
 import turtle
 import os
 
+
 if __name__ == "__main__":
     #set the screen
     wn = turtle.Screen()
@@ -12,7 +13,9 @@ if __name__ == "__main__":
     border_pen.speed(0)
     border_pen.color("White")
     border_pen.penup()
-    border_pen.setposition(-300, -300)
+    boundarie_down = -300
+    boundarie_left = -300
+    border_pen.setposition(boundarie_left, boundarie_down)
     border_pen.pendown()
     border_pen.pensize(2)
     for side in range(4):
@@ -29,5 +32,29 @@ if __name__ == "__main__":
     player.setposition(0, -250)
     player.setheading(90)
 
+    playerspeed = 15
 
-    delay = input("Press enter ton finish.")
+    # move left and right
+    def move_left():
+        x = player.xcor()
+        x -= playerspeed
+        if x < boundarie_left + 20:
+            x = boundarie_left + 20
+        player.setx(x)
+
+
+    def move_right():
+        x = player.xcor()
+        x += playerspeed
+        if x > -boundarie_left - 20:
+            x = -boundarie_left - 20
+        player.setx(x)
+
+
+    #Create keyboard bindings
+    turtle.listen()
+    turtle.onkey(move_left, "Left")
+    turtle.onkey(move_right, "Right")
+    turtle.mainloop()
+
+    delay = input("Press enter to finish.")
