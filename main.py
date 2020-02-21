@@ -29,10 +29,20 @@ if __name__ == "__main__":
     player.shape("triangle")
     player.penup()
     player.speed(0)
-    player.setposition(0, -250)
+    player.setposition(0, boundarie_down + 50)
     player.setheading(90)
 
     playerspeed = 15
+    #Create an enemy
+    enemy = turtle.Turtle()
+    enemy.color("red")
+    enemy.shape("circle")
+    enemy.penup()
+    enemy.speed(0)
+    enemy.setposition(boundarie_left + 100, -boundarie_down - 50)
+
+    enemyspeed = 2
+
 
     # move left and right
     def move_left():
@@ -55,6 +65,29 @@ if __name__ == "__main__":
     turtle.listen()
     turtle.onkey(move_left, "Left")
     turtle.onkey(move_right, "Right")
-    turtle.mainloop()
 
+
+    #Main game loop
+    while True:
+        #Move the enemy
+        x = enemy.xcor()
+        x += enemyspeed
+        enemy.setx(x)
+
+        if enemy.xcor() > -boundarie_left - 20:
+            y = enemy.ycor()
+            y -= 40
+            enemyspeed *= -1
+            enemy.sety(y)
+
+        if enemy.xcor() < boundarie_left + 20:
+            y = enemy.ycor()
+            y -= 40
+            enemyspeed *= -1
+            enemy.sety(y)
+
+
+
+
+    turtle.mainloop()
     delay = input("Press enter to finish.")
