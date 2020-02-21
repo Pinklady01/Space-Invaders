@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y6re9Gj7bWiZoVFdWQUSzaE1RZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,14 +30,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
   </component>
   <component name="RunManager">
-    <configuration name="Space-invaders" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Space-invaders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\mmo\AppData\Local\Continuum\anaconda3\envs\py27\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\mmo\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582273977632</updated>
-      <workItem from="1582273985183" duration="3498000" />
+      <workItem from="1582273985183" duration="5854000" />
     </task>
     <servers />
   </component>
@@ -67,32 +71,40 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582276016705">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582278190080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582276016705" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582278190080" />
     <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1582276015719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582276015719" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1582276019734">
+    <state width="846" height="172" key="GridCell.Tab.0.bottom" timestamp="1582279754753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582276019734" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1582276019734">
+    <state width="846" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
+    <state width="846" height="172" key="GridCell.Tab.0.center" timestamp="1582279754753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582276019734" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1582276019734">
+    <state width="846" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
+    <state width="846" height="172" key="GridCell.Tab.0.left" timestamp="1582279754753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582276019734" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1582276019734">
+    <state width="846" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
+    <state width="846" height="172" key="GridCell.Tab.0.right" timestamp="1582279754753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582276019734" />
+    <state width="846" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582279754753" />
+    <state x="437" y="114" key="Vcs.Push.Dialog.v2" timestamp="1582279830578">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="437" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582279830578" />
+    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582279838836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1582279838836" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Space_invaders$Space_invaders.coverage" NAME="Space-invaders Coverage Results" MODIFIED="1582276019719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Space_invaders$Space_invaders.coverage" NAME="main Coverage Results" MODIFIED="1582279754738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
