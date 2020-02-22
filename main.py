@@ -9,6 +9,11 @@ if __name__ == "__main__":
     wn = turtle.Screen()
     wn.bgcolor("black")
     wn.title("Space Invaders")
+    wn.bgpic("space_invaders_background.gif")
+
+    #Register Shapes
+    turtle.register_shape("invader.gif")
+    turtle.register_shape("player.gif")
 
     #draw border
     border_pen = turtle.Turtle()
@@ -40,7 +45,7 @@ if __name__ == "__main__":
     #Create the player turtle
     player = turtle.Turtle()
     player.color("blue")
-    player.shape("triangle")
+    player.shape("player.gif")
     player.penup()
     player.speed(0)
     player.setposition(0, boundarie_down + 50)
@@ -74,7 +79,7 @@ if __name__ == "__main__":
         enemies.append(turtle.Turtle())
     for enemy in enemies:
         enemy.color("red")
-        enemy.shape("circle")
+        enemy.shape("invader.gif")
         enemy.penup()
         enemy.speed(0)
         x = random.randint(boundarie_left + 100, -boundarie_down - 50)
