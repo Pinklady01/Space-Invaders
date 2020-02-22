@@ -122,16 +122,22 @@ if __name__ == "__main__":
             enemy.setx(x)
 
             if enemy.xcor() > -boundarie_left - 50:
-                y = enemy.ycor()
-                y -= 40
+                #Move all the enemies down
+                for e in enemies:
+                    y = e.ycor()
+                    y -= 40
+                    e.sety(y)
+                #change enemy direction
                 enemyspeed *= -1
-                enemy.sety(y)
 
             if enemy.xcor() < boundarie_left + 50:
-                y = enemy.ycor()
-                y -= 40
+                # Move all the enemies down
+                for e in enemies:
+                    y = e.ycor()
+                    y -= 40
+                    e.sety(y)
+                # change enemy direction
                 enemyspeed *= -1
-                enemy.sety(y)
 
             # Check for a collision between the bullet and the enemy
             if isCollision(bullet, enemy):
