@@ -25,6 +25,18 @@ if __name__ == "__main__":
         border_pen.lt(90)
     border_pen.hideturtle()
 
+    #Set the score to 0
+    score = 0
+
+    #Draw the score
+    score_pen = turtle.Turtle()
+    score_pen.color("White")
+    score_pen.penup()
+    score_pen.setposition(boundarie_left + 10, -boundarie_down + 20)
+    scorestring = "Score: %s" %score
+    score_pen.write(scorestring, False, align="left", font=("Arial", 14, "normal"))
+    score_pen.hideturtle()
+
     #Create the player turtle
     player = turtle.Turtle()
     player.color("blue")
@@ -149,6 +161,13 @@ if __name__ == "__main__":
                 x = random.randint(boundarie_left + 100, -boundarie_down - 50)
                 y = random.randint(100, -boundarie_down)
                 enemy.setposition(x, y)
+                #Update score
+                score += 10
+                scorestring = "Score: %s" % score
+                score_pen.clear()
+                score_pen.write(scorestring, False, align="left", font=("Arial", 14, "normal"))
+                score_pen.hideturtle()
+
 
             # Set game over
             if isCollision(player, enemy):
