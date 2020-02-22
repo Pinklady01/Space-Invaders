@@ -116,6 +116,7 @@ if __name__ == "__main__":
             y = player.ycor() + 10
             bullet.setposition(x, y)
             bullet.showturtle()
+            os.system("afplay laser.wav&")
 
     def isCollision(t1, t2):
         distance = math.sqrt(math.pow(t1.xcor() - t2.xcor(), 2) + math.pow(t1.ycor() - t2.ycor(), 2))
@@ -172,6 +173,7 @@ if __name__ == "__main__":
                 score_pen.clear()
                 score_pen.write(scorestring, False, align="left", font=("Arial", 14, "normal"))
                 score_pen.hideturtle()
+                os.system("afplay explosion.wav&")
 
 
             # Set game over
@@ -190,11 +192,6 @@ if __name__ == "__main__":
         if bullet.ycor() > - boundarie_down - 20:
             bullet.hideturtle()
             bulletstate = "ready"
-
-
-
-
-
 
 
 
