@@ -45,7 +45,7 @@ if __name__ == "__main__":
     bullet.shapesize(0.5, 0.5)
     bullet.hideturtle()
 
-    bulletspeed = 20
+    bulletspeed = 30
     #Define bullet state
     #ready - ready to fire
     #fire - bullet is firing
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     enemy.speed(0)
     enemy.setposition(boundarie_left + 100, -boundarie_down - 50)
 
-    enemyspeed = 2
+    enemyspeed = 10
 
 
     # move left and right
@@ -74,8 +74,8 @@ if __name__ == "__main__":
     def move_right():
         x = player.xcor()
         x += playerspeed
-        if x > -boundarie_left - 20:
-            x = -boundarie_left - 20
+        if x > - boundarie_left - 20:
+            x = - boundarie_left - 20
         player.setx(x)
 
 
@@ -110,13 +110,13 @@ if __name__ == "__main__":
         x += enemyspeed
         enemy.setx(x)
 
-        if enemy.xcor() > -boundarie_left - 20:
+        if enemy.xcor() > -boundarie_left - 40:
             y = enemy.ycor()
             y -= 40
             enemyspeed *= -1
             enemy.sety(y)
 
-        if enemy.xcor() < boundarie_left + 20:
+        if enemy.xcor() < boundarie_left + 40:
             y = enemy.ycor()
             y -= 40
             enemyspeed *= -1
@@ -128,9 +128,26 @@ if __name__ == "__main__":
         bullet.sety(y)
 
         #Check to see if the bullet has gone to the top
-        if bullet.ycor() > -boundarie_down - 20:
+        if bullet.ycor() > - boundarie_down - 20:
             bullet.hideturtle()
             bulletstate = "ready"
+
+        #Check for a collision between the bullet and the enemy
+        if isCollision(bullet, enemy):
+            #Reset the bullet
+            bullet.hideturtle()
+            bulletstate = "ready"
+            bullet.setposition(0, boundarie_down-300)
+            #Reset the enemy
+            enemy.setposition(boundarie_left + 100, -boundarie_down - 50)
+
+            #Set game over
+        if isCollision(player, enemy):
+            player.hideturtle()
+            enemy.hideturtle()
+            print("Game Over")
+            break
+
 
 
 
